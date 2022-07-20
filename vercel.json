@@ -1,5 +1,15 @@
 {
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "movies-api-rest-robert" }
-  ]
+  "version":2 ,
+  "builds":[
+    {
+    "src": "./index.js",
+    "use": "@vercel/node" 
+    }
+],
+"routes":[
+  {
+    "srec":"/(.*)",
+    "dest":"/"
+  }
+]
 }

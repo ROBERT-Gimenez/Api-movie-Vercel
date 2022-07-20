@@ -35,3 +35,5 @@ app.use('/api', apiRoutes);
 
 //Activando el servidor desde express
 app.listen('3001', () => console.log('Servidor corriendo en el puerto 3001'));
+
+module.exports=app;
